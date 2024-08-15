@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls' Sleepover Parties</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f2f8;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffccf2;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+        nav {
+            background-color: #ff99cc;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #f2e4f7;
+            padding: 40px 0;
+            text-align: center;
+            color: #cc6699;
+        }
+        .hero img {
+            width: 80%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .pricing, .gallery, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #cc6699;
+            border-bottom: 2px solid #cc6699;
+            padding-bottom: 10px;
+        }
+        .service-item, .pricing-item, .gallery-item {
+            margin-bottom: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact label {
+            margin-top: 10px;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #cc6699;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #ff99cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Girls' Sleepover Parties</h1>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section class="hero">
+    <h1>Magical Sleepovers for Every Girl!</h1>
+    <img src="/slumber.jpg" alt="Magical Sleepover Party">
+</section>
+
+<div class="container">
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Princess Party</h3>
+            <p>Experience a magical princess-themed sleepover with elegant tents, tiaras, and royal decorations.</p>
+        </div>
+        <div class="service-item">
+            <h3>Movie Night</h3>
+            <p>Enjoy a cozy movie night with popcorn, blankets, and a big screen for the ultimate sleepover experience.</p>
+        </div>
+        <div class="service-item">
+            <h3>Spa Night</h3>
+            <p>Pamper yourself with a relaxing spa-themed sleepover featuring facemasks, robes, and a calming atmosphere.</p>
+        </div>
+        <!-- Add more service items as needed -->
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-item">
+            <h3>Basic Package</h3>
+            <p>Includes setup for up to 5 guests, themed decorations, and snacks. Price: $200</p>
+        </div>
+        <div class="pricing-item">
+            <h3>Deluxe Package</h3>
+            <p>Includes setup for up to 8 guests, premium decorations, snacks, and personalized party favors. Price: $350</p>
+        </div>
+        <div class="pricing-item">
+            <h3>Ultimate Package</h3>
+            <p>Includes setup for up to 10 guests, exclusive decorations, gourmet snacks, and a custom cake. Price: $500</p>
+        </div>
+        <!-- Add more pricing items as needed -->
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-item">
+            <img src="slumber.jpg" alt="Sleepover Party 1" style="width:100%;height:auto;">
+        </div>
+        <div class="gallery-item">
+            <img src="party-image2.jpg" alt="Sleepover Party 2" style="width:100%;height:auto;">
+        </div>
+        <div class="gallery-item">
+            <img src="party-image3.jpg" alt="Sleepover Party 3" style="width:100%;height:auto;">
+        </div>
+        <!-- Add more gallery items as needed -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit-form-url" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Girls' Sleepover Parties | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
